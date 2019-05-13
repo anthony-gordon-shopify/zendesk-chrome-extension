@@ -1,0 +1,22 @@
+.test-button {
+  width: 100px;
+  display: inline-block;
+  margin-left: 30px;
+  padding: 5px 10px;
+  background-color: pink;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 0.5em;
+  margin-top: 5px;
+}
+
+.filter-grid-list {
+  top: 100px !important;
+}
+
+.test-paragraph {
+  display: inline-block;
+  width: 100px;
+  padding: 5px 10px;
+}
