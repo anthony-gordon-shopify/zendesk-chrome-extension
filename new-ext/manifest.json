@@ -14,7 +14,7 @@
     "scripts": ["src/bg/background.js"],
     "persistent": false
   },
-  "permissions": ["tabs", "cookies", "https://shopify.zendesk.com/*"],
+  "permissions": ["tabs", "storage", "https://shopify.zendesk.com/*"],
   "content_scripts": [
     {
       "matches": ["https://shopify.zendesk.com/*"],

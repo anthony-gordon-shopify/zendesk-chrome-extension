@@ -9,12 +9,3 @@ chrome.extension.onMessage.addListener(function(request, sender, sendResponse) {
   chrome.pageAction.show(sender.tab.id);
   sendResponse();
 });
-
-chrome.cookies.set({
-  url: "https://shopify.zendesk.com/*",
-  name: "CookieVar",
-  value: "123",
-  expirationDate: new Date().getTime() / 1000 + 3600
-});
-
-console.log("background");
